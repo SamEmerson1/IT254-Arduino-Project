@@ -1,4 +1,4 @@
-# IT254-Project  
+# IT254-Arduino-Project  
 ## AI Shopping Cart – YOLO Price Detection & Arduino Alert System
 
 ---
