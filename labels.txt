@@ -1,0 +1,10 @@
+apple
+banana
+orange
+bread
+donut
+cake
+carrot
+broccoli
+pizza
+hot dog

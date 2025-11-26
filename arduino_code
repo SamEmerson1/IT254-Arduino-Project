@@ -1,0 +1,18 @@
+// This is the code to be uploaded to the Arduino board
+// It listens for a command from the serial port to activate a buzzer
+// Suggested to upload through Arduino IDE
+const int buzzerPin = 8;
+
+void setup() {
+  pinMode(buzzerPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    char cmd = Serial.read();
+    if (cmd == 'B') {
+      tone(buzzerPin, 1000, 300);  // 1000Hz for 300ms
+    }
+  }
+}
