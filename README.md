@@ -49,7 +49,7 @@ Install with:
 ```bash
 pip install ultralytics opencv-python pyserial
 ````
-
+* See IMG_0880.mp4 for an example setup of the Arduino board
 ---
 
 ## How It Works
